@@ -1,0 +1,7 @@
+# 初始化并连接到 GitHub 仓库
+git init
+git remote add origin https://github.com/yourname/your-repo.git
+echo "# Hello Codespaces" > README.md
+git add .
+git commit -m "Initial commit"
+git push -u origin main
